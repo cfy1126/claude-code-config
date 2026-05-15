@@ -1,0 +1,26 @@
+{
+  "hooks": {
+    "Notification": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File ~/.claude/scripts/notify.ps1 -Title 'Claude Code' -Message '需要你的审批'"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "powershell -ExecutionPolicy Bypass -WindowStyle Hidden -File ~/.claude/scripts/notify.ps1 -Title 'Claude Code' -Message '任务已完成'"
+          }
+        ]
+      }
+    ]
+  }
+}
