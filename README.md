@@ -7,11 +7,14 @@
 ```
 ├── skills/              # 自建全局 Skills
 │   ├── code-review/     # 代码审查
+│   ├── frontend-design/ # 前端界面设计
 │   ├── grill-me/        # 辅助决策拷问
 │   ├── learn-project/   # 项目架构学习
+│   ├── pipeline/        # 质量流水线
 │   ├── qiuzhi-skill-creator/  # Skill 创建向导
 │   ├── session-wrap-up/ # 会话收尾
-│   └── smart-commit/    # 智能提交
+│   ├── smart-commit/    # 智能提交
+│   └── xlsx/            # 电子表格处理
 ├── hooks/               # 全局 Hooks 配置
 │   └── settings.json    # hooks 片段（合并到 ~/.claude/settings.json）
 ├── scripts/             # Hooks 依赖脚本
@@ -51,7 +54,6 @@ cp scripts/* ~/.claude/scripts/
 - `find-skills` — Skill 发现
 - `nano-banana` — AI 图片生成
 - `skill-creator` — Skill 创建/测试
-- `xlsx` — 电子表格处理
 
 安装命令：
 ```bash
